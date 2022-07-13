@@ -14,7 +14,7 @@ try {
   selfIp = 'localhost'
 }
 
-const PORT = 8887
+const PORT = 8886
 function getIpAddress () {
   const interfaces = require('os').networkInterfaces
   for (let devName in interfaces) {

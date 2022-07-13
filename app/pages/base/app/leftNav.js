@@ -48,7 +48,7 @@ export default class LeftNav extends Component {
   openKeys = (pathname) => {
     const { menu } = this.state
     const curPath = `${pathname.split('$')[0]}`.replace('/', '')
-    if (curPath === '') { // 如果是默认首页，那么就不用往下计算了
+    if (curPath === '') {
       this.setState({
         openKeys: ['sub1'],
       })

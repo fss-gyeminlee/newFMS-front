@@ -24,7 +24,7 @@ const webpackConfigBase = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
-    // modules: [ // 웹팩이 상위 디렉토리에 대한 재귀 검색을 피하기 위해 타사 모듈을 찾으려면 다음 디렉토리를 지정하십시오.
+    // modules: [
     //   resolve('app'),
     //   resolve('node_modules'),
     // ],

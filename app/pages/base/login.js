@@ -111,7 +111,6 @@ export default class Login extends Component {
                 }
               </QueuiAnim>
             </div>
-            <Logo />
           </div>
           <div className="login-main">
             <QueuiAnim delay={300} type="bottom" key="row">

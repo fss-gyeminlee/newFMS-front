@@ -30,8 +30,8 @@ http.createServer((req, res) => {
       // const data = originData
       setTimeout(() => {
         res.end(JSON.stringify(data))
-      }, parseInt(((Math.random() - 0.5) + 1) * 500, 10)) // 随机数
+      }, parseInt(((Math.random() - 0.5) + 1) * 500, 10))
     })
   }
 }).listen(1111)
-console.log('listening port 1111')
+console.log('listening port')

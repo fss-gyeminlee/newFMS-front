@@ -4,7 +4,7 @@
   "description": "react-new-fms",
   "private": true,
   "scripts": {
-    "start": "npm run dev",
+    "start": "concurrently \"npm run dev\" \"npm run mock\"",
     "startmock": "concurrently \"npm run dev\" \"npm run mock\"",
     "dev": "webpack-dev-server --config ./scripts/webpack.dev.config.js",
     "testing": "webpack --config ./scripts/webpack.testing.config.js",

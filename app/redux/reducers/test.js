@@ -3,6 +3,7 @@ import ActionTypes from '../actions/actionTypes';
 const initState = {
   list: {
     data: [],
+    index: 0,
   },
   index: 0,
 
@@ -13,9 +14,10 @@ const initState = {
     },
     fileList: [],
   },
+  loading: false,
 };
 
-export const loading = (state = initState, action) => {
+export const confirm = (state = initState, action) => {
   const { param, type, payload } = action;
 
   switch (type) {

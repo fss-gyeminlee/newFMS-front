@@ -6,7 +6,7 @@ function* watchConfirmRequest(action) {
     const { param } = action;
     // const response = yield call(http.confirm, param);
     const response = {
-      data: [],
+      data: [{ id: 'id_013', name: '홍길동', title: '목록1' }, { id: 'id_013', name: '이순신', title: '목록2' }],
       msg: 'success',
     }
     yield put({

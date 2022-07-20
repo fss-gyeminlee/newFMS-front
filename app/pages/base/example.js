@@ -8,6 +8,7 @@ export default class app extends Component {
   }
 
   constructor(props) {
+    console.log('test commit')
     super(props)
     this.state = {}
   }

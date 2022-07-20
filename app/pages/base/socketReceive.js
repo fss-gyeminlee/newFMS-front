@@ -31,9 +31,9 @@ export default class app extends Component {
     // const { socketCollection = {} } = this.props
     return (
       <div className="page">
-        socket receive 页面示例
+        socket receive 
         <div>
-          <h5>收到数据：</h5>
+          <h5>수신데이터：</h5>
           <pre>
             <code>
               {

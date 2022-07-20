@@ -18,6 +18,7 @@
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
+      "legacyDecorators": true,
       "jsx": true,
       "experimentalObjectRestSpread": true
     }

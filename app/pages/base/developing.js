@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
-import { Progress } from 'antd'
+import React, { Component } from 'react';
+import { Progress } from 'antd';
 
 export default class developing extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       // activeTab: 'pop' ,
-    }
+    };
   }
 
-  componentDidMount() {
-
-  }
+  componentDidMount() {}
 
   render() {
     return (
@@ -24,6 +22,6 @@ export default class developing extends Component {
           status="active"
         />
       </div>
-    )
+    );
   }
 }

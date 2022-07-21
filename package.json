@@ -15,7 +15,8 @@
     "precommit": "lint-staged",
     "preCommitInit": "node ./node_modules/husky/lib/installer/bin.js install",
     "test:report": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "dll": "webpack --config ./scripts/webpack.dll.config.js"
+    "dll": "webpack --config ./scripts/webpack.dll.config.js",
+    "prettier:write": "prettier --write \"app/**/*.js\""
   },
   "husky": {
     "hooks": {

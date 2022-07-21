@@ -18,6 +18,11 @@
     "dll": "webpack --config ./scripts/webpack.dll.config.js",
     "prettier:write": "prettier --write \"app/**/*.js\""
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "jest": {
     "moduleFileExtensions": [
       "js",

@@ -1,9 +1,8 @@
-import React, { useEffect, Component } from 'react'
-import axios from 'axios'
-import { useQuery } from 'react-query'
+import React, { useEffect, Component } from 'react';
+import axios from 'axios';
+import { useQuery } from 'react-query';
 
-const menu1 = () =>
-
+const menu1 = () => (
   /* FIXME: react query 사용 */
   // const { data, isLoading, isFetching, isError, error } = useQuery('get-test', axios.post('http://localhost:1111/mock/usercenter/user/userInfo'),
   //   {
@@ -16,7 +15,6 @@ const menu1 = () =>
   //     }
   //   });
 
-
   /* FIXME: axios 사용  */
   // useEffect(() => {
   // axios.post('http://localhost:1111/mock/usercenter/user/userInfo')
@@ -27,7 +25,7 @@ const menu1 = () =>
   //   })
   // },[])
   <div>menu2 area </div>
-
+);
 
 // http://localhost:1111/mock/usercenter/login
 export default menu1;
